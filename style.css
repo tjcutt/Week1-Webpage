@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here');
+
+/* ----------- Structure ------------ */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E8EAE9;
+}
+
+header {
+  height: 200px;
+  background-color: #5BAFD7;
+  /*background-image: url(http://photos.gograph.com/thumbs/CSP/CSP648/k6481387.jpg);
+  background-repeat: repeat;*/
+
+}
+
+footer {
+  height: 100px;
+	background-color: #5BAFD7;
+}
+
+.wrapper {
+  width: 900px;
+	margin: auto;
+}
+
+/* ----------- Logo ------------ */
+header h1 {
+  margin: 0;
+  padding-top: 30px;
+  color: #E8EAE9;
+  font-family: 'Cabin Sketch',sans-serif;
+  font-size: 90px;
+  letter-spacing: 20px;
+  text-align: center;
+}
+
+#subHeader {
+  margin:0;
+  font-family: 'Just me again down here', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* ----------- Text Style ----------- */
+
+#linksTitle {
+  font-family: 'Cabin Sketch', sans-serif;
+  text-align: center;
+  font-size: 4em;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#intro {
+  margin:0;
+  font-family: 'Just me again down here', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+.titles {
+  color: #E8EAE9;
+  font-size: 2.8em;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Cabin Sketch', sans-serif;
+  font-variant: 'none';
+  margin: 0;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#quote {
+  font-family: 'Just me again down here', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+#footer {
+  color: rgb(217, 213, 212);
+  font-family: 'Cabin Sketch', sans-serif;
+  text-align: center;
+  font-size: 2em;
+  text-decoration: none;
+  padding-top: 30px;
+}
+
+/* ----------- Individual Locations Style ----------- */
+
+#turkey {
+  background-image: url("https://drscdn.500px.org/photo/118771829/m%3D900/16306532c4df88946a9e4d7958deb2f1");
+  width: 100%;
+}
+
+#italy {
+  background-image: url("https://drscdn.500px.org/photo/126930303/m%3D900/bf751b68d9b7fd3fee8f8c64b51cbcfe");
+  height: 400px;
+}
+
+#australia {
+  background-image: url("https://drscdn.500px.org/photo/113171905/m%3D900/0015ccaf9088d9f4340c84e52bbf4507");
+  height: 400px;
+}
+
+/* ----------- Link interactivity ----------- */
+
+.titles:hover{color:#F87E46}
+
+/*a:visited*/
+/*any way to specify which "a" link?*/
+
+#footer:hover{color: black}
